@@ -3,7 +3,7 @@ package singleton_test
 import (
 	"testing"
 
-	singleton "github.com/EASYGOING45/DesignPattern_Golang/Singleton"
+	singleton "DesignPattern_Golang/Singleton"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -15,7 +15,7 @@ func GetLazyInstance() *Singleton {
 
 	//once 内的方法只会执行一次，所以不需要再次判断
 	once.Do(func() {
-		lazySingleton = &singleton{a: "test"}
+		lazySingleton = &Singleton{a: "test"}
 	})
 
 	return lazySingleton
