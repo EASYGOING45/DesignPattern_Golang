@@ -1,4 +1,4 @@
-module DesignPattern
+module DesignPattern_Golang
 
 go 1.19
 
